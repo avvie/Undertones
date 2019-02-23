@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class ColorAverage : MonoBehaviour
 {
-	public Texture2D tex;
+	Texture2D tex;
 	public Material target, target2;
     // Start is called before the first frame update
     void Start()
     {
+		tex = GetComponent<Renderer>().material.GetTexture("_MainTex") as Texture2D;
 		Color[] cols = tex.GetPixels();
 		Color average = cols[0];
 		//left to right, bottom to top
