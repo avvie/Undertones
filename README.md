@@ -7,3 +7,5 @@ so i made something to do it for me.
 
 if you want to use this, you need to replace the texture in assets with a similar take from your wrist, prefferably in sunlight
 you need to place it into the project and then drag it to "Quad"
+
+IMPORTANT: You will need to set your texture as Read/Write
